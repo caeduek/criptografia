@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio One</title>
+    <link rel="stylesheet" href="./styles/style.css"> 
+</head>
+<body>
+    <header class="cabecalho" >
+            <img src="./assets/icone.png" class="logo___cabecalho" alt="logo alura">
+    </header>
+    <main class="apresentacao">
+        <div class="apresentacao__input">
+            <textarea type="text" id="texto" class="input__texto" placeholder="Digite seu texto"></textarea>
+            <div class="apresentacao__botoes">
+                <p class="aviso"><img src="./assets/Group.png">letras minusculas e sem acento.</p>
+                <div class="botoes">
+                    <button onclick="criptografia()" id="criptografar" class="botao__criptografar">Criptografar</button>
+                    <button onclick="descriptografia()" id="descriptografar" class="botao__criptografar" >Descriptografar</button>
+                </div>
+            </div>
+        </div>
+        <section>
+            <div class="imagem__apresentacao"><h2>
+            <img class="img__cripto" src="./assets/cripto.png" alt="imagem de criptografia">
+            <div class="imagem__texto">
+                <h3 class="imagem__texto1">Nenhuma mensagem encontrada.</h3>
+                <p2 class="imagem__texto2">Digite um texto que você queira criptografar/descriptografar.</p2></h2>
+            </div>
+            </div>
+        </section>
+    </main>
+    <script src="criptografia.js" defer></script>
+</body>
+</html>
